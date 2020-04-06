@@ -1,0 +1,30 @@
+.top-calendar,
+.main-calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-navigation {
+     padding: 5px 20px;
+     border-radius: 5px;
+     background-color: purple;
+     color: white;
+     border: none;
+     cursor: pointer;
+}
+
+.btn-navigation:disabled{
+     background-color: #efefef;
+     cursor: not-allowed;
+}
+
+#calendar li,
+#nome-mese {
+    text-transform: capitalize;
+}
+
+.festivo {
+    color: red;
+}
